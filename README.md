@@ -7,7 +7,5 @@ Example:
 import js.npm.ExpressBunyanLogger;
 
 // Log express traffic as json
-...
 expressApp.use(ExpressBunyanLogger.create())
-...
  ```
