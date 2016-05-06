@@ -1,4 +1,4 @@
-package expressbunyanlogger;
+package js.npm;
 
 import express.*;
 
