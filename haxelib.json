@@ -1,0 +1,15 @@
+{
+  "name": "hxnodejs-express-bunyan-logger",
+  "url": "https://github.com/proletariatgames/hxnodejs-express-bunyan-logger",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["nodejs", "hxnodejs", "express", "bunyan", "logger"],
+  "description": "Externs for the express-bunyan-logger NPM module",
+  "releasenote": "Initial release",
+  "version": "1.2.0-alpha",
+  "contributors": ["Proletariat", "lpetre", "danogles", "waneck", "danbrakeley"],
+  "dependencies": {
+    "hxnodejs": "",
+    "express": ""
+  }
+}
