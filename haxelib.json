@@ -9,7 +9,8 @@
   "version": "1.2.0-alpha",
   "contributors": ["Proletariat", "lpetre", "danogles", "waneck", "danbrakeley"],
   "dependencies": {
+    "express": "",
     "hxnodejs": "",
-    "express": ""
+    "hxnodejs-bunyan": ""
   }
 }

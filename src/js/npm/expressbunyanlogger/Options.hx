@@ -1,6 +1,8 @@
 package js.npm.expressbunyanlogger;
 
 import express.*;
+import haxe.DynamicAccess;
+import js.npm.bunyan.Level;
 
 typedef Options = {
   @:optional var excludes : Array<String>;
@@ -8,9 +10,9 @@ typedef Options = {
   @:optional var genReqId : Request -> String;
   @:optional var immediate : Bool;
   @:optional var includesFn : Request -> Response -> Dynamic;
-  // TODO: @:optional var levelFn: ???
-  // TODO: @:optional var logger : ???
+  @:optional var levelFn : Int -> Error -> ?Dynamic -> LevelStr;
+  @:optional var logger : js.npm.bunyan.Logger;
   @:optional var name : String;
   @:optional var parseUA : Bool;
-  // TODO: @:optional var serializers : ???
+  @:optional var serializers : DynamicAccess<js.npm.bunyan.Serializer>;
 }
